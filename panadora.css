@@ -1,0 +1,227 @@
+.background{
+width: 100%;
+height:100%;
+}
+.imagebackground{
+    width: 100%;
+height: 100%;
+position: relative;
+
+}
+body{
+    margin: 0;
+}
+.header
+{
+    
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding-top: 15px;
+}
+.center {
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 64px;
+    color: white;
+    font-family: Roboto, sans-serif;;
+    font-style: normal;
+    width: 90%;
+  }
+
+  .shopbutton{
+    background-color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    width: 120px;
+    height: 40px;
+    border-color:white;
+    border-width: 1px;
+    cursor: pointer;
+  }
+  .hleft{
+    
+    
+    width: 40%;
+
+  }
+  .hleft-img{
+    padding-left: 40%;
+    padding-top: 40px;
+    height: 100px;
+    width: 100px;
+    
+   
+  }
+
+.hright{
+  
+    width: 60%;
+   flex-direction: row;
+   padding-top: 70px;
+   display: flex;
+   justify-content:s;
+    align-items: flex-start;
+
+   
+
+
+  
+}
+.button1{
+color: white;
+background-color:transparent;
+border: none;
+margin-left: 50px;
+font-weight: bold;
+width: 100px;
+cursor: pointer;
+ 
+ 
+}
+.button1:hover{
+    color: lightgray;
+}
+.page-2-header{
+    font-size: 36px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    padding-top: 60px;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    padding-left: 200px;
+    row-gap: 10px;
+    column-gap: 10px;
+ 
+}
+.thumbnail{
+    width: 80%;
+    
+    }
+    .product-info-grid{
+        display: grid;
+        margin-left:55px;
+        font-size: 20px;
+        font-family: Roboto, sans-serif;
+        color: #565656
+        ;
+    }
+    .product{
+        cursor: pointer;
+
+    }
+    .left{
+        
+    }
+    .iframe{
+        margin-left: 250px;
+    }
+    .iframe1{
+        margin-left: 250px;
+        padding-top: 60px;
+    }
+    .end{
+        width: 100%;
+        background-color: #faf4f4;
+        margin-top: 90px;
+        text-align: center;
+        height: 400px;
+}
+.end1{
+    width: 80%;
+    padding-left: 200px;
+
+}
+
+
+
+
+    
+    .pend{
+       
+        font-family: Roboto, sans-serif;
+        font-size: 38px;
+        width: 400px;
+        padding-top: 40px;
+        padding-left: 340px;
+    }
+    .end11{
+        font-size: 17px;
+        font-family: Roboto, sans-serif;
+        text-align: center;
+        padding-right: 120px;
+    }
+    .end2{
+        font-size: 36px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    .email{
+        width: 380px;
+    
+        border: none;
+        font-size: 20px;
+        height: 50px;
+        margin: 9px;
+        
+    }
+    .button{
+        color: white;
+        font-size: 13px;
+        background-color: black;
+        height: 50px;
+        width: 110px;
+    
+        
+    }
+    .button:hover{
+        background-color: rgb(61, 58, 58);
+    }
+    .mainbox{
+        background-color: white;
+        width: 34%;
+        height: 70px;
+        align-items: baseline;
+        margin-left: 500px;
+
+    }
+    .last{
+        width: 100%;
+        height: 300px;
+        display: flex;
+    }
+    .lleft{
+        width: 100%;
+        font-size: 17px;
+        font-family: Roboto, sans-serif;
+        color: #898989;
+        padding-left: 270px;
+        padding-top: 30px;
+
+    }
+    .lleft1:hover{
+        color: #565656;
+    }
+    .lright{
+        font-size: 17px;
+        font-family: Roboto, sans-serif;
+        color: #898989;
+        width: 50%;
+        padding-top: 40px;
+        margin-left: 400px;
+    }
+    .img{
+        margin-right: 50px;
+        padding-top: 120px;
+    }
+    
